@@ -13,3 +13,16 @@ def choose_path():
         choice = input("Choose a cave (1 or 2): ")
     
     return int(choice)
+
+
+def find_treasure(chosen_cave):
+    print("\nStep 4: Entering the cave...")
+    
+    print("\nStep 5: Deciding the outcome")
+    correct_cave = random.randint(1, 2)  # Randomly select the winning cave
+    
+    print("\nStep 6: Comparing player's choice with the correct cave")
+    if chosen_cave == correct_cave:
+        print("🎉 Congratulations! You found the hidden treasure! 💰")
+    else:
+        print("😱 Oh no! A dragon appeared and scared you away! 🐉🔥")
