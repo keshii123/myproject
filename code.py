@@ -26,3 +26,13 @@ def find_treasure(chosen_cave):
         print("🎉 Congratulations! You found the hidden treasure! 💰")
     else:
         print("😱 Oh no! A dragon appeared and scared you away! 🐉🔥")
+
+
+# Main execution starts here
+print("\nStep 0: Welcome to the Treasure Hunt Game! 🎭")
+chosen_cave = choose_path()
+
+print("\nStep 7: Calling `find_treasure` function")
+find_treasure(chosen_cave)
+
+print("\nStep 8: Game Over. Thanks for playing! 🎮")
